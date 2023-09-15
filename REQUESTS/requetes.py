@@ -1,8 +1,8 @@
-# https://sleyter.fr/projets.php
+# Phoenix
 
 import requests
 
-reponse = requests.get("https://sleyter.fr/projets.php")
+reponse = requests.get("https://sleyter.net")
 if reponse.status_code == 200:
     reponse.encoding = "UTF-8"
     print(reponse.text)
